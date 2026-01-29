@@ -1,5 +1,7 @@
 # html_highlight
 
+<img align="right" width="300" alt="highlight" src="https://github.com/user-attachments/assets/6e6db63b-53b3-44eb-95e9-34e470ca39f0" />
+
 html_highlight solves the challenge of adding persistent text highlights to HTML content in Flutter applications. Unlike simple string-based approaches that break on complex HTML, this package parses HTML into a DOM tree, manipulates it safely, and serializes it back—ensuring highlights work correctly across paragraphs, lists, blockquotes, and nested elements.
 
 The engine is idempotent (safe to apply multiple times), deterministic (same input always produces the same output), and uses a multi-strategy resolution system to locate highlights even when document content changes slightly.
@@ -102,3 +104,6 @@ The engine caches text maps for performance. Clear caches when content changes:
 HighlightEngine.clearCache('article-123');  // Specific article
 HighlightEngine.clearAllCache();            // All cached maps
 ```
+
+## Contributing
+For information regarding contributions, please refer to [CONTRIBUTING.md](CONTRIBUTING.md) file.
