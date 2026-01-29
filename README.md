@@ -1,5 +1,10 @@
 # html_highlight
 
+[![Package Version](https://img.shields.io/pub/v/html_highlight?color=teal)](https://pub.dev/packages/html_highlight "Published package version")
+[![Style: Lints](https://img.shields.io/badge/style-lints-teal.svg)](https://github.com/dart-lang/lints "Package linter helper")
+[![LICENSE](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/theiskaa/html_highlight#License "Project's LICENSE section")
+
+
 <img align="right" width="300" alt="highlight" src="https://github.com/user-attachments/assets/6e6db63b-53b3-44eb-95e9-34e470ca39f0" />
 
 html_highlight solves the challenge of adding persistent text highlights to HTML content in Flutter applications. Unlike simple string-based approaches that break on complex HTML, this package parses HTML into a DOM tree, manipulates it safely, and serializes it back—ensuring highlights work correctly across paragraphs, lists, blockquotes, and nested elements.
