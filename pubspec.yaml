@@ -1,0 +1,33 @@
+name: html_highlight
+description: A robust, DOM-based HTML highlighting engine for Flutter. Supports complex HTML structures, cross-element selections, and persistent highlight anchoring.
+version: 1.0.0
+homepage: https://github.com/theiskaa/html_highlight
+repository: https://github.com/theiskaa/html_highlight
+issue_tracker: https://github.com/theiskaa/html_highlight/issues
+documentation: https://github.com/theiskaa/html_highlight#readme
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  html: ^0.15.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+topics:
+  - html
+  - highlight
+  - text-selection
+  - dom
+  - annotation
+
+funding:
+  - https://github.com/sponsors/theiskaa
